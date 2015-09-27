@@ -1,6 +1,6 @@
-# LiFX CLI
+# LIFX CLI
 
-Cross-platform LiFX command line interface. Get info, set color and power state. This code has been developed and maintained by Ven at September 2015.
+Cross-platform LIFX command line interface. Get info, set color and power state. This code has been developed and maintained by Ven at September 2015.
 
 ## Requirements
 Golang 1.5 
@@ -87,7 +87,7 @@ lifx --bulb d0:73:d5:01:90:d7 --hue=64489 --saturation=63482 --brightness=65535 
 Pre-compiled versions: https://github.com/2tvenom/lifx/releases/tag/v0.1 (Goland **not** required)
 
 ## Links
- - LiFX protocol specification http://lan.developer.lifx.com/
+ - LIFX protocol specification http://lan.developer.lifx.com/
  - Community https://community.lifx.com/c/developing-with-lifx
 
 ## Licence
