@@ -57,15 +57,6 @@ Output:
 [{"color":{"brightness":32336,"hue":52000,"kelvin":6196,"saturation":0},"ip":{"IP":"192.168.0.2","Port":56700,"Zone":""},"label":"Ven LiFX","mac":"d0:73:d5:01:90:d7","power_state":true}]
 ```
 
-Set color state:
-```bash
-lifx --lookup --color --json
-```
-Output:
-```javascript
-[{"color":{"brightness":32336,"hue":52000,"kelvin":6196,"saturation":0},"ip":{"IP":"192.168.0.2","Port":56700,"Zone":""},"label":"Ven LiFX","mac":"d0:73:d5:01:90:d7","power_state":true}]
-```
-
 Turn off:
 ```bash
 lifx --bulb d0:73:d5:01:90:d7 --off
@@ -90,6 +81,10 @@ Set red color:
 ```bash
 lifx --bulb d0:73:d5:01:90:d7 --hue=64489 --saturation=63482 --brightness=65535 --kelvin=3500	
 ```
+
+## Compiled
+
+Pre-compiled versions: https://github.com/2tvenom/lifx/releases/tag/v0.1 (Goland **not** required)
 
 ## Links
  - LiFX protocol specification http://lan.developer.lifx.com/
